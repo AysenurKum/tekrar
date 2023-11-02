@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> 4.Ders </title>
+        <style>
+            h1 {color:red}
+        </style>
+        <link rel="stylesheet" href="mystyle.css">
+        <link rel="icon"type="image/x-icon" href="../Ders1/IMG_9857.png">
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML,CSS,JavaScript">
+        <meta name="description" content="Free Web Tutorials,ücretsiz web uygulamaları">
+        <meta name="author" content="Ayşenur Kum">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <body>
+        <h1> 4. DERS </h1>
+        <h1> EKLEME </h1>
+
+        <!--  html entity name  -->
+        <h3> Entity Name - Entity Number </h3>
+        <h3> &lt; &#60; </h3>
+        <h3> &gt;&nbsp;&#62; </h3>
+        <h3> &gt;&ensp;&#62; </h3>
+        <!-- nbsp 1 boşluk bırakır  -->
+        <!-- ensp 1 tab boşluk bırakır (daha fazla) -->
+        <h3> &copy;&#169; </h3>
+        <h3> &#128512; </h3>
+        <h3> &#128513; </h3>
+
+        <!-- html forms  -->
+
+        <form>
+            <label for="fname"> First Name:</label>
+            <br><input type="text" name="fname" id="fname">
+            <br><label for="lname"> Last Name:</label>
+            <br><input type="text" name="lname" id="lname">
+
+            <!--  html radio  -->
+            <br><input type="radio" value="HTML" name="favlanguage" id="html">
+            <label for="html"> HTML </label>
+            <input type="radio" value="CSS" name="favlanguage" id="css">
+            <label for="css"> CSS </label>
+            <input type="radio" value="JavaScript" name="favlanguage" id="JavaScript">
+            <label for="JavaScript"> JavaScript</label>
+
+            <!--  html checkbox -->
+            <br>
+            <input type="checkbox" value="bike" name="vehicle1" id="bike">
+            <label for="bike"> Bike </label>
+            <input type="checkbox" value="car" name="vehicle2" id="car">
+            <label for="car"> Car</label>
+            <input type="checkbox" value="boat" name="vehicle3" id="boat">
+            <label for="boat"> Boat </label>
+
+            <!-- html dropdown -->
+            <br>
+            <label> Choose a car </label>
+            <select name="cars" id="cars" size="4" multiple>
+                <option value="seat">Seat</option>
+                <option value="chevrolet">Chevrolet</option>
+                <option value="bmw">BMW</option>
+                <option value="fiat">Fiat</option>
+            </select>
+            <br>
+            <textarea name="message" rows="5" cols="10"> Bu bir text areadır </textarea>
+            <br><button type="submit"> Click here </button>
+            <input type="submit" value="click here2">
+            <!--  aynı işlevi gören iki buton -->
+            <button type="button" onclick="alert('butona tıklandı')"> click here 3</button>
+
+             <!--  type submit sadece form içeriğinde kullanılır. submişt işlemi tüm form içeriğinin aktarılması olarak düşünülebilir -->
+            <!--  type button bireysel olarak işlev gören bir butondur  -->
+
+
+
+
+        </form>
+    
+    </body>
+</html>
