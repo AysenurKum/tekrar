@@ -1,0 +1,58 @@
+/* burası yorum hanesidir */
+/* universal selector */
+/* *{
+    text-align:center;
+    color:purple
+} */
+
+/*  element selector */
+/* p{
+    color:green;
+} */
+
+/* id selector */
+/* #id1 {
+    color: brown;
+} */
+
+/* class selector */
+/* .center {
+    color:blue
+} */
+/* .large {
+    color:yellow
+}
+.center {
+    color:blue
+}
+.large {
+    color:yellow
+} */
+p.center {
+    color:purple;
+}
+
+h1,h2 {
+    color:yellowgreen;
+}
+
+/* div b {
+    color:pink;
+} */
+
+div>b {
+    color:pink
+}
+
+div>p>b {
+    color:red
+}
+
+p {
+    color:chocolate !important;
+}
+#id1 {
+    color:blue;
+    background-color:aqua;
+}
+/*  external css (harici dosya),internal css,inline css (satır içi-en yüksek rütbeli) */
