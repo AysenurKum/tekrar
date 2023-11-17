@@ -117,9 +117,9 @@ inline olan elemente yükseklik ve genişlik verilemez kapladığı yer kadardı
  div.mavi {
     width: 150px;
     height: 150px;
-    position: absolute;
+    position: relative;
     background-color: blue;
-    right: 0;
-    bottom: 0;
+   left: calc(50% - 75px);
+   top: calc(50% - 75px);
  }
  /*  sadece absolute de right 0 bottom 0 gibi özellikler kullabiliriz  */
