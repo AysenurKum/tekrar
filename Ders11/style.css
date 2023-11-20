@@ -1,0 +1,27 @@
+/* .flex-container {
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 600px;
+    align-content: space-around;
+} */
+/* flex-direction column reverse */
+/* justify-content(yatay hizlama) & align-items(dikey hizalama): space-between , space-around , space evenly flex-start,flex-end */
+
+.flex-container > div {
+    width: 100px;
+    background-color: whitesmoke;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.flex-container {
+    display: flex;
+    align-items: stretch;
+    background-color: aqua;
+    height: 200px;
+}
