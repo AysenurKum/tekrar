@@ -1,0 +1,75 @@
+.grid-item {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.grid-container {
+    background-color: blue;
+    height: 800px;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 50px;
+    row-gap: 50px;
+     /* justify-content: start;
+    align-content: space-evenly; */
+
+
+    /*  row gap satır arası boşluklar  */
+    /*  grid-template-columns sütunların boyutunu ayarlamak için kullanılır */
+    /* grid-template-rows satırların boyutunu ayarlamak içni kullanılır */
+}
+
+/*  grid inline-grid olarakta kullanılabiliyor */
+/*  row-gap satırlar arası boşluk bırakır
+column-gap sütunlar arası boşluk bırakır */
+/*  flexte flex-start flex-end vardı ama gridde sadece start ve end olarak kullanıyoruz */
+
+/* .item1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+} */
+/*  grid-column-start ve end start başladığı yeri verir end verdiğimizde de start ve end arasında ki sayı kadar büyüklküğü olur ve column sütundakapladığı yer */
+
+/* .item1 {
+    grid-column: 1 / 4;
+} */
+/* 1. değer start 2. değer end araya / 
+grid-column:1 / span 3; şeklinde de kullanabiliriz span şeklinde kullanırsak aralarında ki fark değil direk o sayıda bitirir */
+
+/* .item2 {
+    grid-row: 2 / span 4;
+} */
+/*  row satırda kapladığı yer  span ile kullanırsak altta ki 4 boşluğu da alır*/
+
+/* .item3 {
+    grid-row: 2 / span 2;
+}
+
+.item4 {
+    grid-row: 2 / span 2;
+} */
+
+/*  grid-area:grid-row-start grid-column-start grid-row-end grid-column-end  */
+
+.item5 {
+    grid-area: 2 / 2 / span 2 / span 2;
+}
+
+.item4 {
+    grid-area: 2 / 1 / span 3 / span 1;
+}
+.item6 {
+    grid-area: 1 / 1 / span 1 / span 3;
+}
+
+.item1 {
+    grid-area: 4 / 2 / span 1 / span 2;
+}
+
+.item9 {
+    grid-area: 5 / 2 / span 1 / span 3;
+}
